@@ -1,6 +1,7 @@
-body{
+body {
     background-color: var(--background-color);
     font-family: var(--primary-font);
+    font-size: 16px;
 }
 
 :root {
@@ -17,6 +18,37 @@ body{
 
 }
 
-p, a, li {
+p,
+a,
+li {
     font-family: var(--secondary-font);
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+}
+
+p.italics {
+    font-style: italic;
+}
+
+.emphasized {
+    font-weight: 700;
+}
+
+.btn {
+    border-radius: 6px;
+    border-width: 2px;
+    transition: 0.3s ease-in-out;
+    font-family: var(--secondary-font);
+}
+
+.btn-primary {
+    background-color: var(--blank);
+    border-color: var(--blank);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--blank);
+     /* Adding drop shadow */
+     box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.2);
 }
