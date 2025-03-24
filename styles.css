@@ -85,3 +85,14 @@ p.italics {
      /* Adding drop shadow */
      box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.2);
 }
+
+.btn-warning {
+    background-color: var(--highlight-color);
+    border-color: var(--highlight-color);
+}
+.btn-warning:hover {
+    background-color: var(--neutral-color);
+    border-color: var(--highlight-color);
+     /* Adding drop shadow */
+     box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.2);
+}
