@@ -102,7 +102,7 @@ p.italics {
 /* Outlined button properties */
 
 .btn-outline-primary {
-    background-color: var(--blank);
+    background-color: transparent; /* No fill */
     border-color: var(--blank);
 }
 
