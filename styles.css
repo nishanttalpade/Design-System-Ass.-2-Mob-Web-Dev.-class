@@ -43,12 +43,70 @@ p.italics {
     font-family: var(--secondary-font);
 }
 
+/* Filled button properties */
+
 .btn-primary {
     background-color: var(--blank);
     border-color: var(--blank);
 }
 
 .btn-primary:hover {
+    background-color: var(--neutral-color);
+    border-color: var(--blank);
+     /* Adding drop shadow */
+     box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.2);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+.btn-secondary:hover {
+    background-color: var(--neutral-color);
+    border-color: var(--secondary-color);
+     /* Adding drop shadow */
+     box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.2);
+}
+.btn-success {
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+}
+.btn-success:hover {
+    background-color: var(--neutral-color);
+    border-color: var(--success-color);
+     /* Adding drop shadow */
+     box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.2);
+}
+.btn-danger {
+    background-color: var(--danger-color);
+    border-color: var(--danger-color);
+}
+.btn-danger:hover {
+    background-color: var(--neutral-color);
+    border-color: var(--danger-color);
+     /* Adding drop shadow */
+     box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.2);
+}
+
+.btn-warning {
+    background-color: var(--highlight-color);
+    border-color: var(--highlight-color);
+}
+.btn-warning:hover {
+    background-color: var(--neutral-color);
+    border-color: var(--highlight-color);
+     /* Adding drop shadow */
+     box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.2);
+}
+
+/* Outlined button properties */
+
+.btn-outline-primary {
+    background-color: var(--blank);
+    border-color: var(--blank);
+}
+
+.btn-outline-primary:hover {
     background-color: var(--neutral-color);
     border-color: var(--blank);
      /* Adding drop shadow */
