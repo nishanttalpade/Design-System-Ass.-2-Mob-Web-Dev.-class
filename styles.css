@@ -103,6 +103,7 @@ p.italics {
 
 .btn-outline-primary {
     background-color: transparent; /* No fill */
+    color: var(--text-color); /* Text color */
     border-color: var(--blank);
 }
 
