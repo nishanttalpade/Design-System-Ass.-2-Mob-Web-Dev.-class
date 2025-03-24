@@ -148,12 +148,13 @@ p.italics {
      box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.2);
 }
 
-.btn-warning {
-    background-color: var(--highlight-color);
+.btn-outline-warning {
+    background-color: transparent; /* No fill */
+    color: var(--text-color); /* Text color */
     border-color: var(--highlight-color);
 }
-.btn-warning:hover {
-    background-color: var(--neutral-color);
+.btn-outline-warning:hover {
+    background-color: var(--highlight-color);
     border-color: var(--highlight-color);
      /* Adding drop shadow */
      box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.2);
