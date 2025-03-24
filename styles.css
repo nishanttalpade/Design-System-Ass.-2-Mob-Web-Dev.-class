@@ -108,7 +108,7 @@ p.italics {
 }
 
 .btn-outline-primary:hover {
-    background-color: var(--blank-color);
+    background-color: var(--blank);
     border-color: var(--blank);
      /* Adding drop shadow */
      box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.2);
