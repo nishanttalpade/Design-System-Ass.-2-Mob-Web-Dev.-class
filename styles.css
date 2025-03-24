@@ -114,8 +114,9 @@ p.italics {
      box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.2);
 }
 
-.btn-secondary {
-    background-color: var(--secondary-color);
+.btn-outline-secondary {
+    background-color: transparent; /* No fill */
+    color: var(--text-color); /* Text color */
     border-color: var(--secondary-color);
 }
 .btn-secondary:hover {
