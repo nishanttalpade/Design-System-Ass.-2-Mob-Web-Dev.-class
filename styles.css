@@ -136,12 +136,13 @@ p.italics {
      /* Adding drop shadow */
      box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.2);
 }
-.btn-danger {
-    background-color: var(--danger-color);
+.btn-outline-danger {
+    background-color: transparent; /* No fill */
+    color: var(--text-color); /* Text color */
     border-color: var(--danger-color);
 }
-.btn-danger:hover {
-    background-color: var(--neutral-color);
+.btn-outline-danger:hover {
+    background-color: var(--danger-color);
     border-color: var(--danger-color);
      /* Adding drop shadow */
      box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.2);
