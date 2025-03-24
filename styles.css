@@ -108,7 +108,7 @@ p.italics {
 }
 
 .btn-outline-primary:hover {
-    background-color: var(--neutral-color);
+    background-color: var(--blank-color);
     border-color: var(--blank);
      /* Adding drop shadow */
      box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.2);
@@ -120,17 +120,18 @@ p.italics {
     border-color: var(--secondary-color);
 }
 .btn-outline-secondary:hover {
-    background-color: var(--neutral-color);
+    background-color: var(--secondary-color);
     border-color: var(--secondary-color);
      /* Adding drop shadow */
      box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.2);
 }
-.btn-success {
-    background-color: var(--success-color);
+.btn-outline-success {
+    background-color: transparent; /* No fill */
+    color: var(--text-color); /* Text color */
     border-color: var(--success-color);
 }
-.btn-success:hover {
-    background-color: var(--neutral-color);
+.btn-outline-success:hover {
+    background-color: var(--success-color);
     border-color: var(--success-color);
      /* Adding drop shadow */
      box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.2);
