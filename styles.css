@@ -119,7 +119,7 @@ p.italics {
     color: var(--text-color); /* Text color */
     border-color: var(--secondary-color);
 }
-.btn-secondary:hover {
+.btn--outline-secondary:hover:hover {
     background-color: var(--neutral-color);
     border-color: var(--secondary-color);
      /* Adding drop shadow */
