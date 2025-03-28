@@ -159,3 +159,7 @@ p.italics {
      /* Adding drop shadow */
      box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.2);
 }
+
+.rounded-image {
+    border-radius: 8px; /* Rounds the corners */
+  }
